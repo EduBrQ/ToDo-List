@@ -1,0 +1,66 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  .btn-wrapper {
+    /* flexbox */
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+  }
+  
+  .btn {
+    background-color: #fff;
+    color: #000;
+    padding: 3px 10px;
+    margin: 0 0 0 3px;
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    line-height: 24px;
+    cursor: pointer;
+    vertical-align: bottom;
+}
+  
+  .btn:hover {
+    background-color: #ecf2fd;
+  }
+  
+  .btn:active {
+    background-color: #d1e0fe;
+  }
+  
+  .btn:focus {
+    outline: none;
+    border: black solid 2px;
+  }
+  
+  .btn-primary {
+    color: #fff;
+    background-color: #000;
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.3rem;
+    border: black solid 2px;
+    margin: 1rem 0;
+  }
+  
+  .btn-primary:hover {
+    background-color: #444242;
+  }
+  
+  .btn-primary:focus {
+    color: #000;
+    outline: none;
+    border: #000 solid 2px;
+    background-color: #d7ecff;
+  }
+  
+  .btn-primary:active {
+    background-color: #212020;
+  }
+  
